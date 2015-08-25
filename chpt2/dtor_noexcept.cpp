@@ -13,9 +13,9 @@ struct C {
     B b;
 };
 
-int funcA() { A a;}
-int funcB() { B b;}
-int funcC() { C c;}
+int funcA() { A a; return 0;}
+int funcB() { B b; return 0;}
+int funcC() { C c; return 0;}
 
 int main(int argc, const char *argv[])
 {
